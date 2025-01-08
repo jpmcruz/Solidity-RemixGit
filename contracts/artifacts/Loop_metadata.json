@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "loop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "whileloop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ForWhile.sol": "Loop"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ForWhile.sol": {
+			"keccak256": "0x98fcaa6caa0e34e7a8c69e1572a3523c865bdfe92c8a0ae8451a5af18759e984",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cf4f6dc56e22e33f733840f7764d2be7cb8345b124b08a5ddb8937c0bbff3975",
+				"dweb:/ipfs/QmWexdrE1ZABcpBbKHjmMbzzWK6PSZTG9WkTeMwxDGWsEY"
+			]
+		}
+	},
+	"version": 1
+}
