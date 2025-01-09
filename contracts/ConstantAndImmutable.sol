@@ -11,11 +11,11 @@ constructor(uint _value) {
  MY_DEPLOYER = msg.sender;
  }
 
-function getMyAddress() public view returns (address) {
+function getMyAddress() public pure returns (address) {
  return MY_ADDRESS;
  }
 
-function getMyUint() public view returns (uint) {
+function getMyUint() public pure returns (uint) {
  return MY_UINT;
  }
 

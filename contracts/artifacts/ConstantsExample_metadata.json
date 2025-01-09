@@ -78,7 +78,7 @@
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -91,7 +91,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -123,11 +123,11 @@
 	},
 	"sources": {
 		"contracts/ConstantAndImmutable.sol": {
-			"keccak256": "0xefd61a93e01437b5aee573d34dfeae21d53a86636ace7ab85d1b9c892e88bc49",
+			"keccak256": "0x0aeddd3df1d53c74a4a62283fedb6ebd38f067af92554e7dba17e6d766a32f62",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4a4c903b14d19275ef9f22e0f9248dc94a1268742eb4b05ce0082af5bf2aa7b1",
-				"dweb:/ipfs/QmfP3TTBR3eGd7F1gq7XXQR2Rb2fey4fAfAXSEUXm5MxhU"
+				"bzz-raw://3027990c8b36126fd54c0eedada038ea7ff25839c2638330fc9dfc708f371f1c",
+				"dweb:/ipfs/QmNMC4iMtTYKTboYhXwYfbeG3LPTgjppAx8QmnyaXrhHLf"
 			]
 		}
 	},
