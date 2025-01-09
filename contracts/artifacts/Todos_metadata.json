@@ -37,6 +37,11 @@
 						"internalType": "bool",
 						"name": "completed",
 						"type": "bool"
+					},
+					{
+						"internalType": "string",
+						"name": "extra",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -138,12 +143,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Structs.sol": {
-			"keccak256": "0x2a699db940e62a756de2451a14ab2dd3e1935bde42dff24c2c738723ee0816e6",
+		"contracts/StructDeclaration.sol": {
+			"keccak256": "0xa2bd8458a3dcfe4049db20132b394f37e2c5a48fae54b141891689dbaf2e571f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://214f5ae00f1df70d9935891851809f7e18211be99ae3c631938b314cc53bf551",
-				"dweb:/ipfs/QmVL91KuQni6e8vYo8VQuWDaMH1AYprM3GgDMHDdV511uP"
+				"bzz-raw://f3a7bf5cba77458186ad484234d46c1196daa45bdfd1e80bd252f9df9f8e27b9",
+				"dweb:/ipfs/QmNfTb6KCm3K46JRwzKqJdcNLqFtmU8Q6Swex5ohoQgDai"
+			]
+		},
+		"contracts/Structs.sol": {
+			"keccak256": "0x7a0b9470937494bb133432e8a3946d854de4987e3a824673dc4827684eb024ec",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d270b066765f0402f6c2c49c5d1a39772c798c98ecf0b3fb7a3ab961d71fff85",
+				"dweb:/ipfs/Qmd1KxEKhmga7sw5oNTs48AyWiQ8teLxfzqj2cGkowMZvo"
 			]
 		}
 	},

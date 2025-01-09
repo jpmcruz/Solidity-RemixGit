@@ -1,12 +1,14 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
+import "contracts/StructDeclaration.sol";
 
 contract Todos {
- struct Todo {
- string text;
- bool completed;
- }
+//  struct Todo {s
+//  string text;
+//  bool completed;
+//  }
 Todo[] public todos;
+
 function create(string calldata _text) public {
  todos.push(Todo(_text, false));
  todos.push(Todo({text: _text, completed: false}));
@@ -14,9 +16,9 @@ function create(string calldata _text) public {
  todo.text = _text;
  todos.push(todo);
  }
-function get(uint _index) public view returns (string memory text, bool completed) {
+function get(uint _index) public view returns (string memory text, bool completed, string memory extra) {
  Todo storage todo = todos[_index];
- return (todo.text, todo.completed);
+ return (todo.text, todo.completed, "extra text");
  }
 function updateText(uint _index, string calldata _text) public {
  Todo storage todo = todos[_index];
